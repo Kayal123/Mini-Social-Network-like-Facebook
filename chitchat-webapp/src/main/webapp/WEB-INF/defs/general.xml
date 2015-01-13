@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition name="common" template="/WEB-INF/layouts/classic.jsp">
+    <put-attribute name="title" value="Chit Chat Social App" />
+  </definition>
+
+  <definition name="pre" template="/WEB-INF/layouts/preAuth.jsp">
+    <put-attribute name="title" value="Chit Chat Social App" />
+  </definition>
+
+  <definition name="getProfile" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/getProfile.jsp" />
+  </definition>
+
+  <definition name="profileInputForm" extends="pre">
+    <put-attribute name="body" value="/WEB-INF/views/profileInputForm.jsp" />
+  </definition>
+
+  <definition name="profileUpdateForm" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/profileUpdateForm.jsp" />
+  </definition>
+
+  <definition name="updatedProfileSuccess" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/updatedProfileSuccess.jsp" />
+  </definition>
+
+  <definition name="createdProfileSuccess" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/createdProfileSuccess.jsp" />
+  </definition>
+
+  <definition name="postManagement" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/postManagement.jsp" />
+  </definition>
+  
+  <definition name="postInputForm" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/postInputForm.jsp" />
+  </definition>
+  
+  <definition name="postUpdateForm" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/postUpdateForm.jsp" />
+  </definition>
+  
+  <definition name="getPost" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/getPost.jsp" />
+  </definition>
+
+  <definition name="getUserPosts" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/getUserPosts.jsp" />
+  </definition>
+
+  <definition name="friendshipManagement" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/friendshipManagement.jsp" />
+  </definition>
+  
+  <definition name="publicGroupChat" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App - Public Group Chat" />
+    <put-attribute name="body" value="/WEB-INF/views/publicGroupChat.jsp" />
+  </definition>
+  
+  <definition name="loginForm" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/loginForm.jsp" />
+  </definition>
+  
+  <definition name="logoutPage" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/logoutPage.jsp" />
+  </definition>
+  
+  <definition name="homePage" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/homePage.jsp" />
+  </definition>
+  
+  
+  <definition name="orgManagement" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/orgManagement.jsp" />
+  </definition>
+
+  <definition name="orgInputForm" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/orgInputForm.jsp" />
+  </definition>
+
+  <!-- <definition name="orgUpdateForm" extends="common">
+    <put-attribute name="title" value="Chit Chat Social App" />
+    <put-attribute name="body" value="/WEB-INF/views/orgUpdateForm.jsp" />
+  </definition> For later -->
+
+  
+</tiles-definitions>
